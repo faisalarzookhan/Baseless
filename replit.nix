@@ -1,0 +1,34 @@
+{pkgs}: {
+  deps = [
+    pkgs.php82Packages.deployer
+    pkgs.sbclPackages.deploy
+    pkgs.azure-cli-extensions.deploy-to-azure
+    pkgs.deploy-rs
+    pkgs.php83Packages.deployer
+    pkgs.rubyPackages_3_1.cocoapods-deploy
+    pkgs.rPackages.plumberDeploy
+    pkgs.haskellPackages.rivet-simple-deploy
+    pkgs.python312Packages.azure-mgmt-deploymentmanager
+    pkgs.python312Packages.plaster-pastedeploy
+    pkgs.rPackages.tfdeploy
+    pkgs.haskellPackages.amazonka-codedeploy
+    pkgs.python312Packages.types-aiobotocore-codedeploy
+    pkgs.python312Packages.mypy-boto3-codedeploy
+    pkgs.rubyPackages_3_3.cocoapods-deploy
+    pkgs.rubyPackages_3_2.cocoapods-deploy
+    pkgs.rPackages.glm_deploy
+    pkgs.nix-deploy
+    pkgs.emacsPackages.elpa-deploy
+    pkgs.emacsPackages.ssh-deploy
+    pkgs.python311Packages.azure-mgmt-deploymentmanager
+    pkgs.python312Packages.monai-deploy
+    pkgs.python311Packages.monai-deploy
+    pkgs.nix-simple-deploy
+    pkgs.rubyPackages.cocoapods-deploy
+    pkgs.haskellPackages.nix-deploy
+    pkgs.python311Packages.deploykit
+    pkgs.php81Packages.deployer
+    pkgs.python312Packages.deploykit
+    pkgs.sbclPackages.deploy-test
+  ];
+}
